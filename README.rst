@@ -1,8 +1,8 @@
-A Binder repo for SageMath computing environment
-================================================
+A Binder repository for using QuiverTools
+=========================================
 
-This repository is a Binder repo based on `SageMath <https://sagemath.org>`_
-which comes with `QuiverTools Tools <https://quiver.tools>`_ installed,
+This repository is a Binder repository based on `SageMath <https://sagemath.org>`_
+which comes with `QuiverTools <https://quiver.tools>`_ installed,
 together with some easy examples.
 
 To run this, just click on the badge:
@@ -24,10 +24,9 @@ Instructions to ourselves
 With `jupytext` one can convert between `.py` and `.ipynb`.
 In particular, the following
 
-```
-jupytext --to ipynb src/basic.py
-mv src/basic.ipynb notebooks
-```
+.. code-block::
+   jupytext --to ipynb src/basic.py
+   mv src/basic.ipynb notebooks
 
 converts the very rudimentary proof of concept to a notebook.
 
